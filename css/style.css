@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    background-color: #242526;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+}
+.content-left{
+    width: 30%;
+    float: left;
+
+    display: flex;
+}
+.header .logo{
+    background-color: #1197F5;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    text-align: center;
+}
+.header .logo i{
+    line-height: 55px;
+    color: #fff;
+    font-size: 30px
+}
+.header .input-search{
+    margin-left: 10px;
+}
+.header .logo, .header .input-search{
+    display: inline;
+}
+.header .input-search input{
+    width: 228px;
+    height: 40px;
+    border-radius: 25px;
+    background: #ddd;
+}
+.header .input-search i {
+    position: absolute;
+    left: 75px;
+    top: 17px;
+    font-size: 20px;
+}
